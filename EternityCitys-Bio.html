@@ -34,18 +34,17 @@
   <h1>Uh-oh!</h1>
   <p>You clicked a link without knowing where it leads. Why? 🤔</p>
   <p>Always be cautious. Not every link is safe!</p>
-  <div id="fake-ip"></div>
+  <div id="fake-info"></div>
   <a href="https://www.google.com">Go somewhere safe</a>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const fakeIpMessage = `<p>Your IP Address is: <strong>127.0.0.1</strong> (Just kidding...) </p>
-      <p>...But it’s surprisingly easy to find and track someone’s real IP address, so stay cautious!</p>`;
-      const ipElement = document.getElementById('fake-ip');
-      ipElement.innerHTML = fakeIpMessage;
+      const fakeInfoMessage = `<p>Did you know? It's easy for websites to gather information about you without your knowledge.</p>
+      <p>Be mindful of the sites you visit and always stay safe online!</p>`;
+      const infoElement = document.getElementById('fake-info');
+      infoElement.innerHTML = fakeInfoMessage;
     });
   </script>
 </body>
 </html>
-
 
